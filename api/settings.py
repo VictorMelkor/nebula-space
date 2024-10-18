@@ -90,7 +90,7 @@ DATABASES = {
         'USER': os.getenv('DB_USER'),           # Usuário do banco de dados
         'PASSWORD': os.getenv('DB_PASSWORD'),   # Senha do banco de dados
         'HOST': os.getenv('DB_HOST', 'localhost'),  # Endereço do banco de dados
-        'PORT': os.getenv('3306'),   # Porta do banco de dados (padrão MySQL é 3306)
+        'PORT': 28023,   # Porta do banco de dados (padrão MySQL é 3306)
     }
 }
 
